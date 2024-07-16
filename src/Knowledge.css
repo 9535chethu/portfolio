@@ -1,0 +1,131 @@
+.knowledge-section {
+  width: 100%;
+  max-width: 950px;
+  margin: 15px;
+  margin-bottom: 10px;
+  padding: 20px;
+  border-radius: 10px;
+  padding-top: 5px;
+}
+
+.knowledge-section h2 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: black;
+  font-family: 'Trirong', sans-serif;
+  font-weight: bolder;
+}
+
+.knowledge-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  justify-content: center;
+}
+
+.knowledge-item {
+  background-color: rgb(80, 80, 105);
+  color: white;
+  padding: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 10px;
+  font-family: 'Trirong', sans-serif;
+  box-shadow: 10px 2px 5px rgba(0, 0, 0, 0.1);
+  background: linear-gradient(to top, #09203f 0%, #537895 100%);
+  white-space: nowrap; /* Prevents text from breaking into new lines */
+}
+
+.fade-in {
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.fade-in.visible {
+  opacity: 1;
+}
+
+/* Media Queries */
+@media (max-width: 1200px) {
+  .knowledge-section {
+    padding: 15px;
+  }
+
+  .knowledge-section h2 {
+    font-size: 22px;
+  }
+
+  .knowledge-item {
+    padding: 5px;
+    flex: 1 1 90px; /* Ensure items take up space as needed */
+  }
+}
+
+@media (max-width: 992px) {
+  .knowledge-section {
+    padding: 10px;
+  }
+
+  .knowledge-section h2 {
+    font-size: 20px;
+  }
+
+  .knowledge-item {
+    padding: 5px;
+    flex: 1 1 80px; /* Ensure items take up space as needed */
+  }
+}
+
+@media (max-width: 768px) {
+  .knowledge-section {
+    padding: 8px;
+  }
+
+  .knowledge-section h2 {
+    font-size: 18px;
+  }
+
+  .knowledge-item {
+    padding: 5px;
+    flex: 1 1 70px; /* Ensure items take up space as needed */
+  }
+}
+
+@media (max-width: 576px) {
+  .knowledge-section {
+    padding: 5px;
+  }
+
+  .knowledge-section h2 {
+    font-size: 16px;
+  }
+
+  .knowledge-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .knowledge-item {
+    padding: 5px;
+    flex: 1 1 60px; /* Ensure items take up space as needed */
+  }
+}
+
+@media (max-width: 480px) {
+  .knowledge-section {
+    margin: 10px;
+    padding: 5px;
+  }
+
+  .knowledge-section h2 {
+    font-size: 14px;
+  }
+
+  .knowledge-item {
+    padding: 5px;
+    flex: 1 1 50px; /* Ensure items take up space as needed */
+  }
+}

@@ -1,0 +1,183 @@
+.projects-and-tools-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 40px;
+}
+
+.projects-section {
+  flex: 3; /* Takes up 3/4 of the space */
+  margin-right: 20px;
+}
+
+.bi-tools-section {
+  flex: 1; /* Takes up 1/4 of the space */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.projects-section h2,
+.bi-tools-section h2 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.projects-container {
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.project {
+  flex-basis: calc(50% - 10px); /* 50% width minus gap */
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  margin-top: 40px;
+  margin-left: 50px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.bi-tools-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.bi-tool-logo {
+  width: 220px; /* Adjust width as needed */
+  height: 160px; /* Adjust height as needed */
+  margin-top: 5px;
+  margin: 10px;
+  display: flex;
+  filter: drop-shadow(0 2px 5px rgba(255, 255, 255, 0.2));
+}
+
+.project h3 {
+  margin: 0 0 10px 0;
+  font-size: 22px;
+  color: #0b0b0b;
+}
+
+.project .date {
+  font-size: 14px;
+  color: #a4a5a4;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.project p {
+  margin: 0;
+  font-size: 16px;
+  color: #dddddd;
+}
+
+.plogo {
+  text-align: center;
+  color: white;
+}
+
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.fade-in-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Media Queries */
+@media (max-width: 1200px) {
+  .projects-section {
+    margin-right: 10px;
+  }
+
+  .bi-tool-logo {
+    width: 180px; /* Adjust width for smaller screens */
+    height: 130px; /* Adjust height for smaller screens */
+  }
+}
+
+@media (max-width: 992px) {
+  .projects-and-tools-section {
+    flex-direction: column;
+  }
+
+  .projects-section {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .project {
+    flex-basis: calc(100% - 10px); /* 100% width minus gap */
+    margin-left: 0;
+  }
+
+  .bi-tool-logo {
+    width: 150px; /* Adjust width for smaller screens */
+    height: 110px; /* Adjust height for smaller screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .project {
+    padding: 15px;
+  }
+
+  .bi-tool-logo {
+    width: 120px; /* Adjust width for smaller screens */
+    height: 90px; /* Adjust height for smaller screens */
+  }
+
+  .project h3 {
+    font-size: 20px;
+  }
+
+  .project .date {
+    font-size: 13px;
+  }
+
+  .project p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .projects-and-tools-section {
+    flex-direction: column;
+  }
+
+  .projects-section,
+  .bi-tools-section {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .project {
+    flex-basis: 100%;
+    margin-left: 0;
+    padding: 10px;
+  }
+
+  .bi-tool-logo {
+    width: 100px; /* Adjust width for smaller screens */
+    height: 80px; /* Adjust height for smaller screens */
+  }
+
+  .project h3 {
+    font-size: 18px;
+  }
+
+  .project .date {
+    font-size: 12px;
+  }
+
+  .project p {
+    font-size: 12px;
+  }
+}
