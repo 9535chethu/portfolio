@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.57b4ebd8.css",
+    "main.js": "/portfolio/static/js/main.2d64438a.js",
+    "static/js/453.45653d8f.chunk.js": "/portfolio/static/js/453.45653d8f.chunk.js",
+    "static/media/profile.jpg": "/portfolio/static/media/profile.db74c1c00cd05b1ce95f.jpg",
+    "static/media/fa-solid-900.ttf": "/portfolio/static/media/fa-solid-900.bacd5de623fb563b961a.ttf",
+    "static/media/fa-brands-400.ttf": "/portfolio/static/media/fa-brands-400.60127e352b7a11f7f1bc.ttf",
+    "static/media/fa-solid-900.woff2": "/portfolio/static/media/fa-solid-900.4d986b00ff9ca3828fbd.woff2",
+    "static/media/fa-brands-400.woff2": "/portfolio/static/media/fa-brands-400.455ea818179b4def0c43.woff2",
+    "static/media/fa-regular-400.ttf": "/portfolio/static/media/fa-regular-400.eb91f7b948a42799f678.ttf",
+    "static/media/fa-regular-400.woff2": "/portfolio/static/media/fa-regular-400.21cb8f55d8e0c5b89751.woff2",
+    "static/media/fa-v4compatibility.ttf": "/portfolio/static/media/fa-v4compatibility.c8e090db312b0bea2aa2.ttf",
+    "static/media/Open-CV.svg": "/portfolio/static/media/Open-CV.cdca8e7fb77fad3a2b3ca93149320c7e.svg",
+    "static/media/nodejs-logo.svg": "/portfolio/static/media/nodejs-logo.543dd86690e645fec32c4c62669bf07f.svg",
+    "static/media/logo1.svg": "/portfolio/static/media/logo1.959584994919e8ff6ad2f81c88cabe4c.svg",
+    "static/media/data-analytics-logo.svg": "/portfolio/static/media/data-analytics-logo.db3994eebd18982a6baed9385c700bd0.svg",
+    "static/media/web-development-logo.svg": "/portfolio/static/media/web-development-logo.165be1c707d5551360ef71b7a14ebb2b.svg",
+    "static/media/fa-v4compatibility.woff2": "/portfolio/static/media/fa-v4compatibility.cf7f5903d06b79ad60f1.woff2",
+    "static/media/react-logo.svg": "/portfolio/static/media/react-logo.f57b349b4d9df56c9b48c916a8d5adfb.svg",
+    "static/media/logo2.svg": "/portfolio/static/media/logo2.ae5c6ea76ec9e353f115b06b354ab34c.svg",
+    "static/media/Js-logo.svg": "/portfolio/static/media/Js-logo.a7f2ccf30eed3e5878a2ba1e6be108a2.svg",
+    "static/media/java-logo.svg": "/portfolio/static/media/java-logo.3d1f1777f72c1a4ca3003a5378491322.svg",
+    "static/media/data-science-logo.svg": "/portfolio/static/media/data-science-logo.ae0c974f537ea794f489a7e08f35fdba.svg",
+    "static/media/python-logo.svg": "/portfolio/static/media/python-logo.4298525c028749eb4fa154f8f5bd1931.svg",
+    "static/media/database-logo.svg": "/portfolio/static/media/database-logo.aea40a7064b07fd21200570b85cce86e.svg",
+    "static/media/html-logo.svg": "/portfolio/static/media/html-logo.91afbd10a92d040f2824deee88e93b2f.svg",
+    "static/media/experience.svg": "/portfolio/static/media/experience.cf4b5b8eb923a6616c1f2aed78123070.svg",
+    "static/media/tableau-logo.svg": "/portfolio/static/media/tableau-logo.be3c51045e321802db1185ec063fa7bd.svg",
+    "static/media/PowerBI.svg": "/portfolio/static/media/PowerBI.3ed907cca87773b18ba124e413a4d3be.svg",
+    "index.html": "/portfolio/index.html",
+    "static/media/location.svg": "/portfolio/static/media/location.a6680187b796ef4e87ca8e024ed37eb3.svg",
+    "static/media/web-design-logo.svg": "/portfolio/static/media/web-design-logo.9aed214de869d4d0d0dc39140c917e4f.svg",
+    "static/media/CSS-logo.svg": "/portfolio/static/media/CSS-logo.315b8fdb9dbf75ae965b80bf368895cd.svg",
+    "main.57b4ebd8.css.map": "/portfolio/static/css/main.57b4ebd8.css.map",
+    "main.2d64438a.js.map": "/portfolio/static/js/main.2d64438a.js.map",
+    "453.45653d8f.chunk.js.map": "/portfolio/static/js/453.45653d8f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.57b4ebd8.css",
+    "static/js/main.2d64438a.js"
+  ]
+}
