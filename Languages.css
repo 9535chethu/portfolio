@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Trirong:wght@400;700&display=swap');
+
+
+.languages-frameworks {
+    width: 100%;
+    overflow: hidden;
+    margin-top: 40px;
+    padding: 20px 0;
+    position: relative;
+  }
+  
+  .languages-frameworks h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #f9f9f9;
+
+  }
+  
+  .logo-container {
+    display: flex;
+    animation: scroll 30s linear infinite;
+  }
+  
+  .logo-item {
+    flex: 0 0 auto;
+    margin: 0 20px;
+  }
+  
+  .logo-item img {
+    width: 50px;
+    height: 50px;
+    transition: filter 0.3s ease;
+  }
+  
+  .logo-item img:hover {
+    filter: invert(23%) sepia(90%) saturate(2276%) hue-rotate(200deg) brightness(97%) contrast(98%);
+  }
+  
+  .logo-container:hover {
+    animation-play-state: paused; /* Pause the animation on hover */
+  }
+  
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+  
