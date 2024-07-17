@@ -63,8 +63,8 @@ p {
 
 .main_page span {
   display: inline-block;
-  background: linear-gradient(90.5deg, rgb(35, 210, 255) 0.3%, rgb(74, 104, 247) 18.2%, rgb(133, 80, 255) 36.4%, rgb(198, 59, 243) 52.5%, rgb(250, 84, 118) 68.8%, rgb(255, 223, 67) 99.9%);
-  background-clip: text;
+  background: linear-gradient(91.9deg, rgb(93, 248, 219) 27.8%, rgb(33, 228, 246) 67%);
+    background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   color: transparent;
@@ -151,9 +151,9 @@ p {
 }
 
 .main-image {
-  width: 100%;
-  max-width: 500px;
-  height: auto;
+  width: 500px;
+  max-width: 600px;
+  height: 500px;
   margin: 20px 0;
   transition: transform 0.3s ease-in-out;
 }
@@ -195,6 +195,11 @@ p {
 .btn-cv:hover, .btn-contact:hover {
   background-color: #2b79ef;
 }
+
+.gmail {
+  color: white;
+}
+
 
 .contact-popup {
   position: fixed;

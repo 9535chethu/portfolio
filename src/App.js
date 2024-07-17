@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './App.css';
 import profileImage from './profile.jpg';
-// import mainImage from './main-image.jpg';
+import mainImage from './logos/main-image1.jpg';
 import WhatIDo from './WhatIDo';
 import Languages from './Languages';
 import '@fortawesome/fontawesome-free/css/all.min.css';
@@ -63,13 +63,13 @@ const App = () => {
               <button className="btn-contact" onClick={toggleContactPopup}>Contact</button>
             </div>
           </div>
-          <img src={profileImage} alt="Main Content" className="main-image" />
+          <img src={mainImage} alt="Main Content" className="main-image" />
         </div>
 
         <div className={`contact-popup ${showContactPopup ? 'active' : ''}`}>
           <div className="contact-details">
-            <p>Email: chethankr4321@gmail.com</p>
-            <p>Phone: 9535615912</p>
+            <p className='gmail'>Email: chethankr4321@gmail.com</p>
+            {/* <p>Phone: 9535615912</p> */}
           </div>
           <button className="close-btn" onClick={toggleContactPopup}>Close</button>
         </div>
