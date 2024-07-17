@@ -37,6 +37,9 @@ const App = () => {
             <a href="https://www.instagram.com/_chethan_kr_/?hl=en" target="_blank" rel="noopener noreferrer">
               <i className="fab fa-instagram"></i>
             </a>
+            <a href="https://www.linkedin.com/in/chethan-k-r-885931271/" target="_blank" rel="noopener noreferrer">
+              <i className="fab fa-linkedin"></i>
+            </a>
           </div>
           <p className="additional-info">
             <ul>
