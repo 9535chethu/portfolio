@@ -1,0 +1,197 @@
+/* FeedbackForm.css */
+.feedback-form-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    /* background: linear-gradient(135deg, #1e2a38, #4b5d73); */
+    animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.feedback-form-container {
+    padding: 20px;
+    width: 50%;
+    background: radial-gradient(circle at 10% 20%, rgb(90, 92, 106) 0%, rgb(32, 45, 58) 81.3%);
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    animation: slideUp 0.8s ease-in-out;
+
+}
+
+@keyframes slideUp {
+    from {
+        transform: translateY(30px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.feedback-form-container:hover {
+    transform: translateY(-5px);
+    box-shadow: 10px 30px 50px rgba(243, 238, 238, 0.25);
+
+}
+
+.form-heading {
+    margin-bottom: 20px;
+    text-align: center;
+    color: #ffffff;
+    font-weight: bolder;
+    text-decoration: underline;
+    font-family: 'Droid Sans', sans-serif;
+    text-align: center;
+}
+
+.feedback-form {
+    display: flex;
+    flex-direction: column;
+    margin-right: 15px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #fff;
+    position: relative;
+}
+
+input[type="text"] + label::after,
+input[type="email"] + label::after,
+textarea + label::after {
+    content: '*';
+    color: red;
+    margin-left: 5px;
+    position: absolute;
+    left: -10px;
+    top: 0;
+    animation: blink 1s infinite;
+}
+
+@keyframes blink {
+    50% {
+        opacity: 0;
+    }
+}
+
+.radio-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.radio-group label {
+    margin-right: 10px;
+    flex: 1;
+    color: #fff;
+    transition: color 0.3s ease-in-out;
+}
+
+.radio-group input {
+    margin-right: 5px;
+}
+
+.radio-group input:checked + label {
+    color: #ffb400;
+}
+
+textarea,
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    background-color: #e8e8e8;
+}
+
+textarea:focus,
+input[type="text"]:focus,
+input[type="email"]:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.5);
+}
+
+.submit-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s ease-in-out;
+    align-self: center;
+    animation: buttonFadeIn 1s ease-in-out;
+}
+
+@keyframes buttonFadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.submit-button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(0, 91, 187, 0.5);
+}
+
+.submit-button:active {
+    transform: translateY(1px);
+}
+
+@media (max-width: 768px) {
+    .feedback-form-container {
+        width: 80%;
+        padding: 15px;
+    }
+
+    .radio-group {
+        flex-direction: column;
+    }
+
+    .radio-group label {
+        margin-bottom: 10px;
+        margin-right: 0;
+    }
+
+    .submit-button {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .feedback-form-container {
+        width: 90%;
+        padding: 10px;
+    }
+
+    .form-group label::after {
+        left: -5px;
+    }
+}

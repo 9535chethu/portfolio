@@ -11,6 +11,7 @@ import Knowledge from './Knowledge';
 import Experience from './experience';
 import Project from './Project';
 import Achievement from './Achievement';
+import FeedbackForm from './FeedbackForm'; // Import the FeedbackForm component
 import Footer from './Footer';
 
 const App = () => {
@@ -51,6 +52,7 @@ const App = () => {
         <Experience />
         <Project />
         <Achievement />
+        <FeedbackForm />
         <Footer />
       </main>
     </div>
